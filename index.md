@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Welcome to the home page of APK Explorer & Editor (AEE)
+APK Explorer & Editor (AEE), an open-source tool to check out what's inside installed APK's, is strictly made with an aim to inspect an installed APK file.
 
-You can use the [editor on GitHub](https://github.com/apk-editor/apk-editor.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Features
+* Explore an installed application and navigate through its contents.
+* Save/export individual resource files such as icon, fonts, graphics, binary XML files, etc to device storage.
+* Very basic editing, only on text files at this moment.
+* Delete or replaces resources.
+* Create signed APK's/App Bundles after the above-mentioned processes.
+* Resign APK's/bundles with AEE custom key.
+* Install exported & resigned Split APK's
+* Share an exported & resigned APK.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Download
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
+     alt="" height="80">](https://play.google.com/store/apps/details?id=com.apk.explorer)
+[<img src="https://i.ibb.co/q0mdc4Z/get-it-on-github.png"
+                    alt="" height="80">](https://github.com/apk-editor/APK-Explorer-Editor/releases)
 
-### Markdown
+### Support Group
+[<img src="https://github.com/SmartPack/SmartPack.github.io/blob/master/asset/pic006.png?raw=true"
+     alt=""
+     height="80">](https://t.me/apkexplorer)
+     
+## Support AEE
+If you like to appreciate the efforts of developer to provide AEE free (always available in GitHub release page), non-intrusive and without Ads, please consider supporting the development in some way. Maintaining this project take a lot of time. So, each and every support from the android community will be hugely appreciated.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[<img src="https://raw.githubusercontent.com/SmartPack/SmartPack.github.io/master/asset/pic005.png"
+     alt=""
+     height="80">](https://www.paypal.me/menacherry/)
+     
+Some other ways to support the development includes, but not limited to
+* Buy Google Play version. It's very cheap, but still support the developer.
+* If you already purchased the AEE, please consider rating or/and reviewing the same in Google Play.
+* Help me to translate AEE into your local language (or improve existing translations).
+* Share good words about AEE with others (family, friends, and other enthusiastic android users).
+     
+### Translations
+Please help me to translate this application via [POEditor](https://poeditor.com/join/project?hash=QztabxONOp). You may also translate after downloading the original language string available [here](app/src/main/res/values/strings.xml).
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/apk-editor/apk-editor.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Credits
+AEE gladly received help, either direct or indirect, from a number of people/open-source projects and are
+* [Grarak](https://github.com/Grarak/) - Kernel Adiutor
+* [sunilpaulmathew](https://github.com/sunilpaulmathew) - Package Manager
+* [Aefyr](https://github.com/Aefyr) - PseudoApkSigner & SAI
+* [Hsiafan](https://github.com/hsiafan/) - APK parser
+* [Srikanth Reddy Lingala](https://github.com/srikanth-lingala) - zip4j
+* [Nitin Kalra](https://github.com/nkalra0123/) - Split App Share & Install
+* [Gospel Gilbert](https://t.me/gilgreat0295) - App Icon
