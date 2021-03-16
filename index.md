@@ -1,5 +1,16 @@
+---
+layout: default
+title: Home
+---
+
+<style>
+    tab1 { padding-left: 4em; }
+</style>
+
 ## Welcome to the home page of APK Explorer & Editor (AEE)
-APK Explorer & Editor (AEE), an open-source tool to check out what's inside installed APK's, is strictly made with an aim to inspect an installed APK file.
+<p style="text-align: justify;"><tab1>APK Explorer & Editor (AEE), an open-source tool to check out what's inside installed APK's, is strictly made with an aim to inspect an installed APK file.</tab1></p>
+
+<p style="text-align: center"><img src="https://raw.githubusercontent.com/apk-editor/apk-editor.github.io/main/assets/app_ui.png" alt="" width="250" height="450" /></p>
 
 ### Features
 1.  Explore an installed application and navigate through its contents.
