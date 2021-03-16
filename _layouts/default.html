@@ -14,14 +14,7 @@
 
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/apk-editor/APK-Explorer-Editor" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+        {% include nav.html %}
       </div>
     </header>
 
@@ -30,5 +23,6 @@
         {{ content }}
       </section>
     </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>
