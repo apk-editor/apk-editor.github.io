@@ -50,7 +50,7 @@ $container-max-width: 1000px;
   font-size: 17px;
   border: none;
   outline: none;
-  color: white;
+  color: $conifer;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -343,7 +343,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child),
   .dropdown .dropbtn {
     display: none;
