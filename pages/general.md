@@ -22,12 +22,13 @@ permalink: /general/
     <li>It is possible to <b>Save</b>/<b>Export</b> individual resource files such as fonts, graphics, binary XML files, etc to device storage.</li>
     <li>AEE even allow users to <b>Delete</b> or <b>Replace</b> original resource files of an APK.</li>
     <li>Finally, AEE offers the generation of a signed (with AEE custom key) APK's/App Bundles after the above-mentioned modifications.</li>
-    <li>Alternately, long clicking on an entry on the main screen will allow users to simply resign APK's/App bundles with AEE custom key.</li>
+    <li>Alternately, long clicking on an entry on the main screen will allow users to simply export (with or without signing with AEE custom key) APK's/App bundles into device storage.</li>
+
 </ol>
 
 ### 2. Projects
 
-<p style="text-align: justify;"><tab1>This page lists all the applications (including the uninstalled ones) that are already explored from the first page, provided the user decided to retain the explored data upon asking (app will prompt when closing a project). This page also allows almost all the tasks that are available in the previous page.</tab1></p>
+<p style="text-align: justify;"><tab1>This page lists all the applications (including the uninstalled ones) that are already explored from the first page, provided the user decided to retain the explored data upon asking (app will prompt when closing a project). This page also allows almost all the tasks that are available in the previous page. Additionally, long-clicking an item on this page will allow making a copy of the entire project folder of the selected app into device storage.</tab1></p>
 
 ### 3. Extracted APK's
 
@@ -38,6 +39,10 @@ permalink: /general/
     <li>Share an exported resigned APK by long clicking.</li>
 </ol>
 
+<p style="text-align: justify;"><tab1>Additionally, this page is also equipped with a feature-rich APK/Split APK/App bundle installer. AEE Split APK installer now handles normal APK's, split APK's as well as xapk, apks and apkm app bundles. In order to initialize an installation, simply click the installer button on the top to select the installation file(s) and follow onscreen instructions.</tab1></p>
+
 ### 4. About
 
 <p style="text-align: justify;"><tab1>Shows very basic information about the development of this project. It includes links to visit the source code of AEE, Telegram support group etc.</tab1></p>
+
+<p style="color: blue; text-align: end"><a href="{{ site.github.url }}/apk-signing/">Next: <b>Signing APK's</b></a></p>
