@@ -34,11 +34,11 @@ permalink: /apk-signing/
 
 ### Configure AEE to work with custom key
 
-<p style="text-align: justify;"><tab1>Open AEE and Navigate to <b>About -> APK Signing</b>. This page will allow users to select a Private Key and RSA Template using the in-built File picker. Use it! By doing so, AEE will do the following changes, and now onwards uses the new credentials for signing.</tab1></p>
+<p style="text-align: justify;"><tab1>Open AEE and Navigate to <b>Settings -> Sign APK's with</b> and select <b>Custom Key</b>. A new page will now open which offers options to select a custom <b>Private Key</b> and <b>RSA Template</b> using the in-built File picker. Use it! By doing so, AEE will do the following changes, and now onwards uses the new credentials for signing.</tab1></p>
 
 <ol>
     <li>Save private key as<br><br><b>/data/data/com.apk.editor/files/signing/APKEditor.pk8</b><br><br></li>
     <li>Save RSA template as<br><br><b>/data/data/com.apk.editor/files/signing/APKEditor</b><br><br></li>
 </ol>
 
-<p style="color: blue; text-align: start"><a href="{{ site.github.url }}/general/">Previous: <b>Signing APK's</b></a></p>
+<p style="color: blue; text-align: start"><a href="{{ site.github.url }}/general/">Previous: <b>General</b></a></p>
