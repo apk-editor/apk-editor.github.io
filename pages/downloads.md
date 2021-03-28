@@ -18,8 +18,8 @@ permalink: /downloads/
 
 <p><a href="https://play.google.com/store/apps/details?id=com.apk.explorer" target="_blank"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="" height="60" /></a></p>
 
-### GitHub
+### F-Droid/GitHub
 
-<p style="text-align: justify;"><tab1>The GitHub version is named as APK Explorer & Editor, which is in fact the full version of AEE. It offers all the capabilities of this project including APK/app bundle signing, very basic editing on the resources (work in progress), as well as the installation of the exported APK's/app bundles. This version is, and always, remains free.</tab1></p>
+<p style="text-align: justify;"><tab1>The F-Droid/GitHub version is named as APK Explorer & Editor, which is in fact the full version of AEE. It offers all the capabilities of this project including APK/app bundle signing, very basic editing on the resources (work in progress), as well as the installation of the exported APK's/app bundles. This version is, and always, remains free.</tab1></p>
 
-<p><a href="https://github.com/apk-editor/APK-Explorer-Editor/releases" target="_blank"><img src="https://i.ibb.co/q0mdc4Z/get-it-on-github.png" alt="" height="60" /></a></p>
+<p><a href="https://f-droid.org/packages/com.apk.editor/" target="_blank"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="" height="60" /></a> <a href="https://github.com/apk-editor/APK-Explorer-Editor/releases" target="_blank"><img src="https://i.ibb.co/q0mdc4Z/get-it-on-github.png" alt="" height="60" /></a></p>

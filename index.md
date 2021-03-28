@@ -18,7 +18,7 @@ title: Home
 3.  Export and easily manage (install, share etc.) APK's/Split APK's into device storage.
 4.  Includes a feature-rich APK/Split APK/App bundle installer (easily pick and install files from device storage)
 5.  Easily extract an app icon by single-clicking on it.
-6.  Very basic editing, only on text files at this moment.
+6.  It is also possible to edit text/binary XML files using an in-built text editor (disabled by default in the <b>Settings</b> menu).
 7.  Provides basic information about important resource files.
 8.  View graphics, texts, binary XML, and many more.
 9.  Save/Export individual resource files to device storage.
