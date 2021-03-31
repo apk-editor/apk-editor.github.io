@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: apk-editor.github.io
+Token: 5b72b2739af327f3383ece000524e23ad8047e6a9b693205f2604313e27326bb
