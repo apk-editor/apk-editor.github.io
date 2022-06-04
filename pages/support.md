@@ -12,7 +12,7 @@ permalink: /support/
 
 <p style="text-align: justify;"><tab1>If you like to appreciate the efforts of developer to provide AEE free (always available in GitHub release page), non-intrusive and without Ads, please consider supporting the development in some way. Maintaining this project take a lot of time. So, each and every support from the android community will be hugely appreciated.</tab1></p>
 
-<p><a href="https://liberapay.com/sunilpaulmathew/donate" target="_blank"><img src="https://liberapay.com/assets/widgets/donate.svg" alt="" height="60" /></a> <a href="https://www.paypal.me/menacherry" target="_blank"><img src="https://github.com/SmartPack/SmartPack.github.io/blob/master/asset/pic005.png?raw=true" alt="" height="60" /></a></p>
+<p><a href="https://liberapay.com/sunilpaulmathew/donate" target="_blank"><img src="https://liberapay.com/assets/widgets/donate.svg" alt="" height="60" /></a> <a href="https://www.paypal.me/menacherry" target="_blank"><img src="https://github.com/SmartPack/SmartPack.github.io/blob/master/assets/pic005.png?raw=true" alt="" height="60" /></a></p>
 
 <p><strong>Liberapay Donation url</strong>: <a href="https://liberapay.com/sunilpaulmathew/donate" target="_blank">https://liberapay.com/sunilpaulmathew/donate</a><br><strong>PayPal Donation url</strong>: <a href="https://www.paypal.me/menacherry" target="_blank">https://www.paypal.me/menacherry</a></p>
      
