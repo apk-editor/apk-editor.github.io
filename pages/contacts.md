@@ -12,7 +12,7 @@ permalink: /contacts/
 
 <p style="text-align: justify;"><tab1>For general support feel free to join AEE Telegram group.</tab1></p>
 
-<p><a href="https://t.me/apkexplorer" target="_blank"><img src="https://github.com/SmartPack/SmartPack.github.io/blob/master/asset/pic006.png?raw=true" alt="" height="60" /></a></p>
+<p><a href="https://t.me/apkexplorer" target="_blank"><img src="https://github.com/SmartPack/SmartPack.github.io/blob/master/assets/pic006.png?raw=true" alt="" height="60" /></a></p>
      
 ### Contact developer
 
