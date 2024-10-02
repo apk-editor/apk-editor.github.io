@@ -35,8 +35,9 @@ permalink: /general/
 <p style="text-align: justify;"><tab1>This page lists all the APK's/App bundles created on the first page. Various tasks that are allowed on this page are</tab1></p>
 
 <ol>
-    <li>Install an exported resigned APK/Split APK's by single clicking.</li>
-    <li>Share an exported resigned APK by long clicking.</li>
+    <li>Install an exported or resigned APK/Split APK's by single clicking.</li>
+    <li>Share or save an exported APK/Split APK's to downloads folder by long clicking.</li>
+    <li>Delete an exported APK/Split APK's.</li>
 </ol>
 
 <p style="text-align: justify;"><tab1>Additionally, this page is also equipped with a feature-rich APK/Split APK/App bundle installer. AEE Split APK installer now handles normal APK's, split APK's as well as xapk, apks and apkm app bundles. In order to initialize an installation, simply click the installer button on the top to select the installation file(s) and follow onscreen instructions.</tab1></p>
@@ -50,9 +51,8 @@ permalink: /general/
 <p style="text-align: justify;"><tab1>The <b>Settings</b> menu of AEE is bundled with a number of options including,</tab1></p>
 
 <ol>
-    <li>Choose the default action when Exiting a Project & Exporting and Installing APK's.</li>
-    <li>Chose the export path for non-APK files.</li>
-    <li>Enable or Disable Text Editor etc.</li>
+    <li>Choose the default action when Exiting a Project, Exporting and Installing APK's, etc.</li>
+    <li>Chose app theme and display language.</li>
     <li>Configure APK signing.</li>
 </ol>
 
