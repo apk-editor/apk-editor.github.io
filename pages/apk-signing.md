@@ -14,14 +14,19 @@ permalink: /apk-signing/
 
 ## Signing with a custom key
 
-<p style="text-align: justify;"><tab1>In order to sign APK's with a custom key, AEE requires a <b>private key</b> in pk8 format as well as an <b>X509Certificate</b> exported from the same key.</tab1></p>
+<p style="text-align: justify;"><tab1>In order to sign APK's with a custom key, AEE requires either a <b>PKCS #12</b> keystore or a <b>PKCS #8</b>/<b>X509Certificate</b> key pair.</tab1></p>
 
-### How to create private key
+### How to generate a PKCS #12 keystore
 
 <ol>
     <li>Convert a java keystore (JKS) to PKCS12 format<br><br><b>keytool -importkeystore -srckeystore KEYSTORE_PATH -destkeystore intermediate.p12 -srcstoretype JKS -deststoretype PKCS12</b><br><br></li>
+</ol>
+
+### How to create a PKCS #8 private key
+
+<ol>
     <li>Convert a PKCS12 to pem format<br><br><b>openssl pkcs12 -in intermediate.p12 -nodes -out intermediate.rsa.pem</b><br><br></li>
-    <li>Finally convert pem to pk8 format<br><br><b>openssl pkcs8 -topk8 -outform DER -in intermediate.rsa.pem -inform PEM -out private.pk8 -nocrypt</b><br></li>
+    <li>Convert the pem file to PKCS #8 format<br><br><b>openssl pkcs8 -topk8 -outform DER -in intermediate.rsa.pem -inform PEM -out private.pk8 -nocrypt</b><br></li>
 </ol>
 
 ### How to create X509Certificate
@@ -33,7 +38,7 @@ permalink: /apk-signing/
 
 ### Configure AEE to work with custom key
 
-<p style="text-align: justify;"><tab1>Open AEE and Navigate to <b>Settings -> Sign APK's with</b> and select <b>Custom Key</b>. A new page will now open which offers options to select a custom <b>Private Key</b> and <b>X509Certificate</b>. Use it! By doing so, AEE will do the following changes, and now onwards uses the new credentials for signing.</tab1></p>
+<p style="text-align: justify;"><tab1>Open AEE and Navigate to <b>Settings -> Sign APK's with</b> and select <b>Custom Key</b>. A new page will now open which offers an option to select a custom <b>Private Key</b>. Use it to import your PKCS #12 keystore or PKCS #8 private key. Depending on the imported file, AEE might ask for additional details. For e.g., keystore and alias passwords are requested upon importing a PKCS #12 keystore. On the other hand, importing a PKCS #8 private key to AEE will lead you to a new window requesting it's respective X509Certificate pair. By fulfilling them, AEE will do the following changes, and now onwards uses the new credentials for signing.</tab1></p>
 
 <ol>
     <li>Save private key as<br><br><b>/data/data/com.apk.editor/files/signing/APKEditor.pk8</b><br><br></li>
